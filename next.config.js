@@ -1,12 +1,14 @@
 /** @type {import('next').NextConfig} */
 
-/* Тестовый статический билд для GitHub Pages (peachjoe864.github.io/deti-orpin-static).
-   Отдельная копия репозитория — НЕ основной Vercel-деплой.
+/* Статический билд для GitHub Pages, публикуется на custom domain
+   www.dialog-pokoleniy.online (см. public/CNAME) — НЕ основной Vercel-деплой,
+   это отдельная копия репозитория.
 
    basePath/assetPrefix берутся из NEXT_PUBLIC_BASE_PATH:
-   - не задана (обычная локальная разработка, `npm run dev` / `npm run build`) → пусто, сайт живёт в корне;
-   - задана в GitHub Actions (см. .github/workflows/deploy-pages.yml) → '/deti-orpin-static',
-     сайт публикуется в подпапке.
+   - не задана (локальная разработка, `npm run dev`/`npm run build`, и текущий
+     production-workflow с custom domain) → пусто, сайт живёт в корне;
+   - задана явно (например, для публикации без custom domain по адресу
+     <user>.github.io/deti-orpin-static/) → сайт уходит в подпапку.
 
    headers() из исходного конфига убран: `output: 'export'` не поддерживает серверные
    заголовки (Next выдаёт ошибку сборки, если оставить headers()/redirects()/rewrites()

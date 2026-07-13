@@ -19,9 +19,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Тестовый адрес — https://<user>.github.io/deti-orpin-static/.
-      # Меняется здесь, если репозиторий переименуют.
-      NEXT_PUBLIC_BASE_PATH: /deti-orpin-static
+      # Сайт публикуется на custom domain (см. public/CNAME) из корня —
+      # basePath пустой. Если понадобится вернуть публикацию по адресу
+      # <user>.github.io/deti-orpin-static/ без custom domain, здесь нужно
+      # будет снова задать NEXT_PUBLIC_BASE_PATH: /deti-orpin-static.
+      NEXT_PUBLIC_BASE_PATH: ""
     steps:
       - name: Checkout
         uses: actions/checkout@v4

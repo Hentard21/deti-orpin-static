@@ -30,6 +30,9 @@ export const metadata: Metadata = {
   title: 'Диалог поколений. Герои и дети',
   description: 'Всероссийский проект АНО "Центр патриотического воспитания и всестороннего развития детей и молодёжи «Диалог поколений. Герои и дети»"',
   keywords: 'patriotic проект, герои, дети, центр поддержки, ветераны',
+  verification: {
+    yandex: '49f5622db9115623',
+  },
 };
 
 export default function RootLayout({

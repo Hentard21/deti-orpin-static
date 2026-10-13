@@ -1,3 +1,4 @@
+import BookFeature from '@/components/sections/BookFeature';
 import Hero from '@/components/sections/Hero';
 import Overview from '@/components/sections/Overview';
 import ContestBanner from '@/components/sections/ContestBanner';
@@ -11,6 +12,7 @@ export default function Home() {
       <Overview />
       <ContestBanner />
       <RoutePreview />
+      <BookFeature />
       <Partners />
     </div>
   );

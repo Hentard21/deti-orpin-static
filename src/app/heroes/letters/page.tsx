@@ -150,6 +150,7 @@ export default function LettersPage() {
               Живые слова, наполненные любовью и благодарностью.
             </p>
             <div className="flex flex-wrap gap-4 justify-center pt-2">
+              <Link href="/book" prefetch={false} className="inline-flex items-center gap-2 font-medium rounded-lg px-6 py-3 bg-crimson-600 text-white">Листать новую книгу</Link>
               <a
                 href={withBasePath('/MemoryLatters.pdf')}
                 target="_blank"
@@ -157,7 +158,7 @@ export default function LettersPage() {
                 className="inline-flex items-center gap-2 font-medium rounded-lg px-6 py-3 transition duration-200"
                 style={{ background: 'var(--color-crimson-600)', color: '#fff', boxShadow: '0 4px 20px rgba(183,28,28,0.35)' }}
               >
-                <BookOpen size={16} /> Открыть сборник
+                <BookOpen size={16} /> Открыть исходный сборник
               </a>
               <a
                 href={withBasePath('/MemoryLatters.pdf')}
@@ -165,7 +166,7 @@ export default function LettersPage() {
                 className="inline-flex items-center gap-2 font-medium rounded-lg px-6 py-3 transition duration-200"
                 style={{ border: '1px solid var(--border-color)', color: 'var(--text-secondary)', background: 'transparent' }}
               >
-                <Download size={16} /> Скачать PDF
+                <Download size={16} /> Скачать исходный PDF
               </a>
             </div>
           </div>

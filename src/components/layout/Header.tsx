@@ -22,7 +22,7 @@ const navItems = [
     href: '/heroes',
     subItems: [
       { name: 'Герои России', href: '/heroes' },
-      { name: 'Письма памяти', href: '/heroes/letters' },
+      { name: 'Письма памяти', href: '/book' },
     ]
   },
   {
@@ -38,7 +38,7 @@ const navItems = [
 
 /* Маршруты с большим объёмом медиа — не префетчим их в фоне,
    чтобы не создавать лишнюю нагрузку на нестабильном соединении */
-const heavyRoutes = new Set(['/media', '/heroes/letters']);
+const heavyRoutes = new Set(['/media', '/heroes/letters', '/book']);
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

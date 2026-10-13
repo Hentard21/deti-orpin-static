@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { octoberProgram } from '@/data/october-program';
 import Reveal from '@/components/ui/Reveal';
 import { Users, Heart, Award, Shield, BookOpen, Target, Building2, Star, Camera, Cpu, Share2, Film } from 'lucide-react';
 import { withBasePath } from '@/lib/paths';
@@ -409,6 +410,12 @@ export default function AboutPage() {
           </Reveal>
         </div>
       </section>
+      <section className="programme-section programme-tint"><div className="programme-container">
+        <p className="programme-kicker">ОКТЯБРЬСКАЯ ПРОГРАММА 2026</p>
+        <h2 className="font-heading text-3xl font-bold mb-6">Организаторы конкурса и турнира в Волгограде</h2>
+        <ul className="list-disc pl-5 space-y-3">{octoberProgram.organizers.map(name => <li key={name}>{name}</li>)}</ul>
+        <p className="mt-6">Научно-методическое участие в турнире: {octoberProgram.tournament.scientificPartner}.</p>
+      </div></section>
     </div>
   );
 }

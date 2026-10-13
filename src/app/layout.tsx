@@ -1,4 +1,6 @@
 import '../../styles/globals.css';
+import '../../styles/programme.css';
+import '../../styles/book.css';
 import type { Metadata } from 'next';
 import { Montserrat, Inter } from 'next/font/google';
 import Header from '@/components/layout/Header';

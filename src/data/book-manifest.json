@@ -1,0 +1,1029 @@
+{
+  "version": "V32",
+  "title": "Письма памяти",
+  "subtitle": "Всероссийская книга голосами детей героев",
+  "interiorPages": 209,
+  "spreadCount": 105,
+  "familyCount": 78,
+  "download": "/book/pisma-pamyati-v32.pdf",
+  "cover": "/book/cover.webp",
+  "spreadPattern": "/book/spreads/spread-{number}.webp",
+  "render": {
+    "dpi": 120,
+    "quality": 84,
+    "dimensions": {
+      "width": 2486,
+      "height": 974
+    }
+  },
+  "intro": [
+    {
+      "section_id": "partners",
+      "title": "Выходные данные и партнёры",
+      "type": "front_matter",
+      "start_page": 1,
+      "end_page": 1,
+      "spread_count": 1,
+      "kind": "intro"
+    },
+    {
+      "section_id": "geography",
+      "title": "География памяти",
+      "type": "front_matter",
+      "start_page": 2,
+      "end_page": 2,
+      "spread_count": 1,
+      "kind": "intro"
+    },
+    {
+      "section_id": "official-decree",
+      "title": "Указ Президента Российской Федерации № 962",
+      "type": "front_matter",
+      "start_page": 3,
+      "end_page": 3,
+      "spread_count": 1,
+      "kind": "intro"
+    },
+    {
+      "section_id": "welcome-words",
+      "title": "Приветственные слова",
+      "type": "front_matter",
+      "start_page": 4,
+      "end_page": 10,
+      "spread_count": 4,
+      "kind": "intro"
+    },
+    {
+      "section_id": "chronicle",
+      "title": "Диалог поколений — хроника",
+      "type": "front_matter",
+      "start_page": 5,
+      "end_page": 11,
+      "spread_count": 4,
+      "kind": "intro"
+    },
+    {
+      "section_id": "contents",
+      "title": "Содержание",
+      "type": "front_matter",
+      "start_page": 12,
+      "end_page": 13,
+      "spread_count": 1,
+      "kind": "intro"
+    },
+    {
+      "section_id": "family-section",
+      "title": "Письма семей",
+      "type": "front_matter",
+      "start_page": 14,
+      "end_page": 14,
+      "spread_count": 0,
+      "kind": "intro"
+    }
+  ],
+  "families": [
+    {
+      "id": "hero-001",
+      "name": "Анастасия",
+      "children": [
+        "ИГОРЬ"
+      ],
+      "regionId": "volgograd-oblast",
+      "startPage": 14,
+      "endPage": 15,
+      "template": "standard"
+    },
+    {
+      "id": "hero-003",
+      "name": "Вячеслав",
+      "children": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "regionId": "novosibirsk-oblast",
+      "startPage": 16,
+      "endPage": 19,
+      "template": "extended"
+    },
+    {
+      "id": "hero-004",
+      "name": "Николай",
+      "children": [
+        "МИХАИЛ"
+      ],
+      "regionId": "republic-of-khakassia",
+      "startPage": 20,
+      "endPage": 21,
+      "template": "standard"
+    },
+    {
+      "id": "hero-005",
+      "name": "Евгений",
+      "children": [
+        "ИВАН"
+      ],
+      "regionId": "novosibirsk-oblast",
+      "startPage": 22,
+      "endPage": 23,
+      "template": "standard"
+    },
+    {
+      "id": "hero-006",
+      "name": "Алимамед",
+      "children": [
+        "РУСЛАН",
+        "МУРАД"
+      ],
+      "regionId": "novosibirsk-oblast",
+      "startPage": 24,
+      "endPage": 25,
+      "template": "standard"
+    },
+    {
+      "id": "hero-007",
+      "name": "Алмат",
+      "children": [
+        "АДЕЛИНА"
+      ],
+      "regionId": "orenburg-oblast",
+      "startPage": 26,
+      "endPage": 27,
+      "template": "standard"
+    },
+    {
+      "id": "hero-008",
+      "name": "Яков",
+      "children": [
+        "ИВАН",
+        "АЛИНА"
+      ],
+      "regionId": "republic-of-khakassia",
+      "startPage": 28,
+      "endPage": 31,
+      "template": "extended"
+    },
+    {
+      "id": "hero-009",
+      "name": "Егор",
+      "children": [
+        "УЛЬЯНА",
+        "ЕКАТЕРИНА",
+        "ТИХОН"
+      ],
+      "regionId": "karachay-cherkess-republic",
+      "startPage": 32,
+      "endPage": 33,
+      "template": "standard"
+    },
+    {
+      "id": "hero-010",
+      "name": "Алексей",
+      "children": [
+        "ПОЛИНА"
+      ],
+      "regionId": "nizhny-novgorod-oblast",
+      "startPage": 34,
+      "endPage": 35,
+      "template": "standard"
+    },
+    {
+      "id": "hero-011",
+      "name": "Андрей",
+      "children": [
+        "ДАМИАН",
+        "ВИТАЛИНА",
+        "ЭМИЛИЯ",
+        "НИКИТА"
+      ],
+      "regionId": "karachay-cherkess-republic",
+      "startPage": 36,
+      "endPage": 39,
+      "template": "extended"
+    },
+    {
+      "id": "hero-012",
+      "name": "Виктор",
+      "children": [
+        "ВАРВАРА",
+        "АРИНА"
+      ],
+      "regionId": "pskov-oblast",
+      "startPage": 40,
+      "endPage": 41,
+      "template": "standard"
+    },
+    {
+      "id": "hero-013",
+      "name": "Вадим",
+      "children": [
+        "ТИМУР",
+        "ЛЕОНИД",
+        "ГЕРМАН",
+        "ОЛЕГ",
+        "РАДА",
+        "РАДОМИР"
+      ],
+      "regionId": "saint-petersburg-federal-city",
+      "startPage": 42,
+      "endPage": 45,
+      "template": "extended"
+    },
+    {
+      "id": "hero-014",
+      "name": "Евгений",
+      "children": [
+        "АГАТА",
+        "МАКАР",
+        "ТАИСИЯ",
+        "ЯРОСЛАВА"
+      ],
+      "regionId": "kurgan-oblast",
+      "startPage": 46,
+      "endPage": 49,
+      "template": "extended"
+    },
+    {
+      "id": "hero-015",
+      "name": "Илья",
+      "children": [
+        "КСЕНИЯ",
+        "ЕЛИЗАВЕТА"
+      ],
+      "regionId": "nizhny-novgorod-oblast",
+      "startPage": 50,
+      "endPage": 51,
+      "template": "standard"
+    },
+    {
+      "id": "hero-017",
+      "name": "Александр",
+      "children": [
+        "ИРИНА"
+      ],
+      "regionId": "krasnoyarsk-krai",
+      "startPage": 52,
+      "endPage": 53,
+      "template": "standard"
+    },
+    {
+      "id": "hero-018",
+      "name": "Андрей",
+      "children": [
+        "ЕЛИЗАВЕТА"
+      ],
+      "regionId": "chelyabinsk-oblast",
+      "startPage": 54,
+      "endPage": 55,
+      "template": "standard"
+    },
+    {
+      "id": "hero-019",
+      "name": "Анатолий",
+      "children": [
+        "НИКИТА"
+      ],
+      "regionId": "yaroslavl-oblast",
+      "startPage": 56,
+      "endPage": 57,
+      "template": "standard"
+    },
+    {
+      "id": "hero-020",
+      "name": "Булат",
+      "children": [
+        "ТИМУР",
+        "ДИЯР"
+      ],
+      "regionId": "astrakhan-oblast",
+      "startPage": 58,
+      "endPage": 59,
+      "template": "standard"
+    },
+    {
+      "id": "hero-021",
+      "name": "Алекси",
+      "children": [
+        "РУСЛАН"
+      ],
+      "regionId": "republic-of-adygea",
+      "startPage": 60,
+      "endPage": 61,
+      "template": "standard"
+    },
+    {
+      "id": "hero-022",
+      "name": "Сергей",
+      "children": [
+        "СОФИЯ"
+      ],
+      "regionId": "kurgan-oblast",
+      "startPage": 62,
+      "endPage": 63,
+      "template": "standard"
+    },
+    {
+      "id": "hero-023",
+      "name": "Дмитрий",
+      "children": [
+        "ПАВЕЛ"
+      ],
+      "regionId": "kurgan-oblast",
+      "startPage": 64,
+      "endPage": 65,
+      "template": "standard"
+    },
+    {
+      "id": "hero-024",
+      "name": "Алексей",
+      "children": [
+        "МАРК"
+      ],
+      "regionId": "krasnoyarsk-krai",
+      "startPage": 66,
+      "endPage": 67,
+      "template": "standard"
+    },
+    {
+      "id": "hero-025",
+      "name": "Салам",
+      "children": [
+        "ХАДИЖА",
+        "КАМИЛЛА",
+        "ЗАИРА"
+      ],
+      "regionId": "republic-of-ingushetia",
+      "startPage": 68,
+      "endPage": 69,
+      "template": "standard"
+    },
+    {
+      "id": "hero-026",
+      "name": "Александр",
+      "children": [
+        "УЛЬЯНА",
+        "ИЛЬЯ"
+      ],
+      "regionId": "novosibirsk-oblast",
+      "startPage": 70,
+      "endPage": 73,
+      "template": "extended"
+    },
+    {
+      "id": "hero-027",
+      "name": "Александр",
+      "children": [
+        "ЕГОР"
+      ],
+      "regionId": "republic-of-khakassia",
+      "startPage": 74,
+      "endPage": 75,
+      "template": "standard"
+    },
+    {
+      "id": "hero-028",
+      "name": "Талгат",
+      "children": [
+        "САФИЯ",
+        "ДИАНА"
+      ],
+      "regionId": "volgograd-oblast",
+      "startPage": 76,
+      "endPage": 79,
+      "template": "extended"
+    },
+    {
+      "id": "hero-029",
+      "name": "Александр",
+      "children": [
+        "ГЛЕБ",
+        "ЕГОР"
+      ],
+      "regionId": "tyumen-oblast",
+      "startPage": 80,
+      "endPage": 83,
+      "template": "extended"
+    },
+    {
+      "id": "hero-030",
+      "name": "Вячеслав",
+      "children": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "regionId": "novosibirsk-oblast",
+      "startPage": 84,
+      "endPage": 85,
+      "template": "standard"
+    },
+    {
+      "id": "hero-031",
+      "name": "Сергей",
+      "children": [
+        "ИРИНА",
+        "ДАРЬЯ"
+      ],
+      "regionId": "nizhny-novgorod-oblast",
+      "startPage": 86,
+      "endPage": 87,
+      "template": "standard"
+    },
+    {
+      "id": "hero-032",
+      "name": "Николай",
+      "children": [
+        "КИРА"
+      ],
+      "regionId": "republic-of-adygea",
+      "startPage": 88,
+      "endPage": 89,
+      "template": "standard"
+    },
+    {
+      "id": "hero-033",
+      "name": "Мурад",
+      "children": [
+        "ЯСМИНА",
+        "УМУКУСУМ"
+      ],
+      "regionId": "republic-of-dagestan",
+      "startPage": 90,
+      "endPage": 91,
+      "template": "standard"
+    },
+    {
+      "id": "hero-034",
+      "name": "Тимур",
+      "children": [
+        "ДАНИЭЛЬ",
+        "АЙСЫЛУ"
+      ],
+      "regionId": "tyumen-oblast",
+      "startPage": 92,
+      "endPage": 93,
+      "template": "standard"
+    },
+    {
+      "id": "hero-035",
+      "name": "Илья",
+      "children": [
+        "ВАЛЕРИЯ",
+        "АЛЕКСАНДР",
+        "КСЕНИЯ"
+      ],
+      "regionId": "tyumen-oblast",
+      "startPage": 94,
+      "endPage": 95,
+      "template": "standard"
+    },
+    {
+      "id": "hero-036",
+      "name": "Андрей",
+      "children": [
+        "КСЕНИЯ",
+        "АРТЁМ"
+      ],
+      "regionId": "sverdlovsk-oblast",
+      "startPage": 96,
+      "endPage": 97,
+      "template": "standard"
+    },
+    {
+      "id": "hero-037",
+      "name": "Дамир",
+      "children": [
+        "ИРКЕН",
+        "МИЛАНА",
+        "ИЛЬНАР"
+      ],
+      "regionId": "astrakhan-oblast",
+      "startPage": 98,
+      "endPage": 99,
+      "template": "standard"
+    },
+    {
+      "id": "hero-038",
+      "name": "Вячеслав",
+      "children": [
+        "ЛЕОНИД",
+        "ВАРВАРА",
+        "РОМАН"
+      ],
+      "regionId": "tyumen-oblast",
+      "startPage": 100,
+      "endPage": 101,
+      "template": "standard"
+    },
+    {
+      "id": "hero-039",
+      "name": "Василий",
+      "children": [
+        "ПАВЕЛ"
+      ],
+      "regionId": "republic-of-bashkortostan",
+      "startPage": 102,
+      "endPage": 105,
+      "template": "extended"
+    },
+    {
+      "id": "hero-040",
+      "name": "Роман",
+      "children": [
+        "СВЯТОСЛАВ"
+      ],
+      "regionId": "tyumen-oblast",
+      "startPage": 106,
+      "endPage": 107,
+      "template": "standard"
+    },
+    {
+      "id": "hero-041",
+      "name": "Вячеслав",
+      "children": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "regionId": "novosibirsk-oblast",
+      "startPage": 108,
+      "endPage": 109,
+      "template": "standard"
+    },
+    {
+      "id": "hero-042",
+      "name": "Евгений",
+      "children": [
+        "ДМИТРИЙ",
+        "АРТЕМ",
+        "ПАЛИНА"
+      ],
+      "regionId": "republic-of-tuva",
+      "startPage": 110,
+      "endPage": 111,
+      "template": "standard"
+    },
+    {
+      "id": "hero-043",
+      "name": "Владислав",
+      "children": [
+        "АЙМИР"
+      ],
+      "regionId": "republic-of-khakassia",
+      "startPage": 112,
+      "endPage": 113,
+      "template": "standard"
+    },
+    {
+      "id": "hero-044",
+      "name": "Рамиль",
+      "children": [
+        "РАНИЛЬ",
+        "ДАНИЛЬ"
+      ],
+      "regionId": "republic-of-tatarstan",
+      "startPage": 114,
+      "endPage": 115,
+      "template": "standard"
+    },
+    {
+      "id": "hero-045",
+      "name": "Санал",
+      "children": [
+        "ЭНКИРА",
+        "ЧИНГИЗ",
+        "ТЕНГИР"
+      ],
+      "regionId": "republic-of-kalmykia",
+      "startPage": 116,
+      "endPage": 119,
+      "template": "extended"
+    },
+    {
+      "id": "hero-046",
+      "name": "Анатолий",
+      "children": [
+        "СЕРГЕЙ",
+        "ЕКАТЕРИНА",
+        "ЕЛИЗАВЕТА"
+      ],
+      "regionId": "kurgan-oblast",
+      "startPage": 120,
+      "endPage": 121,
+      "template": "standard"
+    },
+    {
+      "id": "hero-047",
+      "name": "Александр",
+      "children": [
+        "ВЯЧЕСЛАВ",
+        "ЕГОР"
+      ],
+      "regionId": "tyumen-oblast",
+      "startPage": 122,
+      "endPage": 125,
+      "template": "extended"
+    },
+    {
+      "id": "hero-048",
+      "name": "Вячеслав",
+      "children": [
+        "ЗЛАТА"
+      ],
+      "regionId": "republic-of-bashkortostan",
+      "startPage": 126,
+      "endPage": 127,
+      "template": "standard"
+    },
+    {
+      "id": "hero-049",
+      "name": "Роман",
+      "children": [
+        "ДАРИНА",
+        "ПАВЕЛ"
+      ],
+      "regionId": "primorsky-krai",
+      "startPage": 128,
+      "endPage": 129,
+      "template": "standard"
+    },
+    {
+      "id": "hero-050",
+      "name": "Мустафа",
+      "children": [
+        "АМИНА",
+        "МУХАММАД",
+        "КАМИЛЛЯ"
+      ],
+      "regionId": "republic-of-ingushetia",
+      "startPage": 130,
+      "endPage": 131,
+      "template": "standard"
+    },
+    {
+      "id": "hero-051",
+      "name": "Виктор",
+      "children": [
+        "ВЛАДА"
+      ],
+      "regionId": "ivanovo-oblast",
+      "startPage": 132,
+      "endPage": 133,
+      "template": "standard"
+    },
+    {
+      "id": "hero-052",
+      "name": "Виктор",
+      "children": [
+        "ВЛАДА"
+      ],
+      "regionId": "ivanovo-oblast",
+      "startPage": 134,
+      "endPage": 135,
+      "template": "standard"
+    },
+    {
+      "id": "hero-053",
+      "name": "Вячеслав",
+      "children": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "regionId": "novosibirsk-oblast",
+      "startPage": 136,
+      "endPage": 137,
+      "template": "standard"
+    },
+    {
+      "id": "hero-054",
+      "name": "Вячеслав",
+      "children": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "regionId": "volgograd-oblast",
+      "startPage": 138,
+      "endPage": 141,
+      "template": "extended"
+    },
+    {
+      "id": "hero-055",
+      "name": "Вячеслав",
+      "children": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "regionId": "novosibirsk-oblast",
+      "startPage": 142,
+      "endPage": 143,
+      "template": "standard"
+    },
+    {
+      "id": "hero-056",
+      "name": "Вячеслав",
+      "children": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "regionId": "novosibirsk-oblast",
+      "startPage": 144,
+      "endPage": 145,
+      "template": "standard"
+    },
+    {
+      "id": "hero-057",
+      "name": "Игорь",
+      "children": [
+        "ВЛАДИСЛАВ",
+        "АРИНА"
+      ],
+      "regionId": "zabaykalsky-krai",
+      "startPage": 146,
+      "endPage": 149,
+      "template": "extended"
+    },
+    {
+      "id": "hero-058",
+      "name": "Дмитрий",
+      "children": [
+        "ЮЛИАННА"
+      ],
+      "regionId": "zabaykalsky-krai",
+      "startPage": 150,
+      "endPage": 151,
+      "template": "standard"
+    },
+    {
+      "id": "hero-059",
+      "name": "Ильдар",
+      "children": [
+        "АМИР"
+      ],
+      "regionId": "lipetsk-oblast",
+      "startPage": 152,
+      "endPage": 153,
+      "template": "standard"
+    },
+    {
+      "id": "hero-060",
+      "name": "Денис",
+      "children": [
+        "МИЛАНА"
+      ],
+      "regionId": "lipetsk-oblast",
+      "startPage": 154,
+      "endPage": 155,
+      "template": "standard"
+    },
+    {
+      "id": "hero-061",
+      "name": "Сергей",
+      "children": [
+        "СОФИЯ"
+      ],
+      "regionId": "moscow-federal-city",
+      "startPage": 156,
+      "endPage": 157,
+      "template": "standard"
+    },
+    {
+      "id": "hero-062",
+      "name": "Александр",
+      "children": [
+        "АМИР…"
+      ],
+      "regionId": "orenburg-oblast",
+      "startPage": 158,
+      "endPage": 159,
+      "template": "standard"
+    },
+    {
+      "id": "hero-063",
+      "name": "Николай",
+      "children": [
+        "КИРА"
+      ],
+      "regionId": "republic-of-khakassia",
+      "startPage": 160,
+      "endPage": 161,
+      "template": "standard"
+    },
+    {
+      "id": "hero-064",
+      "name": "Вячеслав",
+      "children": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "regionId": "novosibirsk-oblast",
+      "startPage": 162,
+      "endPage": 163,
+      "template": "standard"
+    },
+    {
+      "id": "hero-065",
+      "name": "Вячеслав",
+      "children": [
+        "РУСЛАН",
+        "КАМИЛЛА",
+        "САБИНА"
+      ],
+      "regionId": "novosibirsk-oblast",
+      "startPage": 164,
+      "endPage": 165,
+      "template": "standard"
+    },
+    {
+      "id": "hero-066",
+      "name": "Ильгам",
+      "children": [
+        "МУРАТ",
+        "ДАНИЯР"
+      ],
+      "regionId": "republic-of-bashkortostan",
+      "startPage": 166,
+      "endPage": 169,
+      "template": "extended"
+    },
+    {
+      "id": "hero-067",
+      "name": "Евгений",
+      "children": [
+        "ПОЛИНА",
+        "АННА",
+        "ЕГОР"
+      ],
+      "regionId": "sverdlovsk-oblast",
+      "startPage": 170,
+      "endPage": 171,
+      "template": "standard"
+    },
+    {
+      "id": "hero-068",
+      "name": "Абдулбек",
+      "children": [
+        "АКРАМАН",
+        "САЛИМА",
+        "ДАИД"
+      ],
+      "regionId": "chechen-republic",
+      "startPage": 172,
+      "endPage": 175,
+      "template": "extended"
+    },
+    {
+      "id": "hero-069",
+      "name": "Антон",
+      "children": [
+        "ДМИТРИЙ"
+      ],
+      "regionId": "chelyabinsk-oblast",
+      "startPage": 176,
+      "endPage": 179,
+      "template": "extended"
+    },
+    {
+      "id": "hero-070",
+      "name": "Алексей",
+      "children": [
+        "АННА",
+        "ЕКАТЕРИНА"
+      ],
+      "regionId": "saint-petersburg-federal-city",
+      "startPage": 180,
+      "endPage": 181,
+      "template": "standard"
+    },
+    {
+      "id": "hero-071",
+      "name": "Александр",
+      "children": [
+        "ДАНИЛ"
+      ],
+      "regionId": "sverdlovsk-oblast",
+      "startPage": 182,
+      "endPage": 183,
+      "template": "standard"
+    },
+    {
+      "id": "hero-072",
+      "name": "Федор",
+      "children": [
+        "АНАСТАСИЯ",
+        "МИХАИЛ"
+      ],
+      "regionId": "nizhny-novgorod-oblast",
+      "startPage": 184,
+      "endPage": 185,
+      "template": "standard"
+    },
+    {
+      "id": "hero-073",
+      "name": "Андрей",
+      "children": [
+        "АННА",
+        "ВИКТОР"
+      ],
+      "regionId": "chelyabinsk-oblast",
+      "startPage": 186,
+      "endPage": 187,
+      "template": "standard"
+    },
+    {
+      "id": "hero-074",
+      "name": "Артур",
+      "children": [
+        "ДИНАР"
+      ],
+      "regionId": "republic-of-bashkortostan",
+      "startPage": 188,
+      "endPage": 189,
+      "template": "standard"
+    },
+    {
+      "id": "hero-075",
+      "name": "Андрей",
+      "children": [
+        "МАРГАРИТА",
+        "ПЕТР"
+      ],
+      "regionId": "amur-oblast",
+      "startPage": 190,
+      "endPage": 191,
+      "template": "standard"
+    },
+    {
+      "id": "hero-076",
+      "name": "Николай",
+      "children": [
+        "АННА"
+      ],
+      "regionId": "khanty-mansi-autonomous-okrug-yugra",
+      "startPage": 192,
+      "endPage": 193,
+      "template": "standard"
+    },
+    {
+      "id": "hero-002",
+      "name": "Игорь",
+      "children": [
+        "Письма детей: Назар и Элина"
+      ],
+      "regionId": "Донецкая Народная Республика",
+      "startPage": 194,
+      "endPage": 197,
+      "template": "extended"
+    },
+    {
+      "id": "pending-family-001",
+      "name": "Константин",
+      "children": [
+        "Дети: Марина, Роман, Матвей и Эвелина"
+      ],
+      "regionId": "Челябинская область",
+      "startPage": 198,
+      "endPage": 203,
+      "template": "merged_extended"
+    },
+    {
+      "id": "pending-family-003",
+      "name": "Данил",
+      "children": [
+        "Письмо сестры: Алина, 11 лет"
+      ],
+      "regionId": "Донецкая Народная Республика",
+      "startPage": 204,
+      "endPage": 205,
+      "template": "standard"
+    },
+    {
+      "id": "pending-family-004",
+      "name": "Дмитрий",
+      "children": [
+        "Дети: Назар и Виктория"
+      ],
+      "regionId": "Волгоградская область",
+      "startPage": 206,
+      "endPage": 207,
+      "template": "standard"
+    }
+  ],
+  "backMatter": [
+    {
+      "section_id": "editorial-finale",
+      "title": "Память продолжается",
+      "type": "back_matter",
+      "start_page": 208,
+      "end_page": 209,
+      "spread_count": 1,
+      "review_status": "OWNER_APPROVAL_REQUIRED",
+      "kind": "back_matter"
+    }
+  ],
+  "reviewNotice": "Электронный прототип V32. Финальная редакционная и типографская проверка выполняется отдельно."
+}

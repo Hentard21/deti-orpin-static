@@ -1,33 +1,34 @@
 import { Palette, PenLine, BookOpen, Map, ArrowRight, Star, Upload } from 'lucide-react';
 import Link from 'next/link';
+import ContestBanner from '@/components/sections/ContestBanner';
 
 const categories = [
   {
     icon: <Palette size={40} className="text-crimson-600" />,
     title: 'Рисунки',
     description: 'Живопись, графика, иллюстрации на патриотическую тему — виды родного края, портреты героев, сцены из истории Отечества.',
-    count: 'Работы принимаются',
+    count: 'Творческое направление',
     color: 'from-crimson-600/20 to-crimson-700/5',
   },
   {
     icon: <PenLine size={40} className="text-crimson-600" />,
     title: 'Стихи о Родине',
     description: 'Поэзия о любви к России, о подвиге защитников Отечества, о красоте родной земли и гордости за свою страну.',
-    count: 'Работы принимаются',
+    count: 'Творческое направление',
     color: 'from-gold-600/20 to-gold-500/5',
   },
   {
     icon: <BookOpen size={40} className="text-crimson-600" />,
     title: 'Патриотические эссе',
     description: 'Размышления о смысле служения Отечеству, о памяти героев, об ответственности молодого поколения перед страной.',
-    count: 'Работы принимаются',
+    count: 'Творческое направление',
     color: 'from-navy-700/30 to-navy-800/10',
   },
   {
     icon: <Map size={40} className="text-crimson-600" />,
     title: 'Исторические исследования',
     description: 'Краеведческие работы об истории родного края, биографии местных героев, описание памятных мест и событий.',
-    count: 'Работы принимаются',
+    count: 'Творческое направление',
     color: 'from-gold-500/15 to-crimson-600/10',
   },
 ];
@@ -78,8 +79,8 @@ const featuredWorks = [
 ];
 
 const steps = [
-  { num: '01', title: 'Создайте работу', desc: 'Подготовьте произведение в одной из четырёх номинаций.' },
-  { num: '02', title: 'Оформите заявку', desc: 'Заполните форму участника и приложите работу в электронном виде.' },
+  { num: '01', title: 'Создайте работу', desc: 'Подготовьте произведение в одной из пяти номинаций конкурса «Моя Родина — Россия».' },
+  { num: '02', title: 'Оформите заявку', desc: 'Направьте работу и установленную заявку на anocentrdetei@yandex.ru до 15 октября 2026 года включительно.' },
   { num: '03', title: 'Пройдите отбор', desc: 'Жюри рассмотрит все работы и выберет лучшие для публикации.' },
   { num: '04', title: 'Получите признание', desc: 'Победители и лауреаты получат дипломы и призы проекта.' },
 ];
@@ -129,6 +130,8 @@ export default function CreativityPage() {
           </div>
         </div>
       </section>
+
+      <ContestBanner />
 
       {/* Categories */}
       <section className="py-24" style={{ backgroundColor: 'var(--bg-primary)' }}>

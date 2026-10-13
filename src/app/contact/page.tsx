@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { octoberProgram } from '@/data/october-program';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -14,8 +15,8 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Обработка формы
-    console.log('Form submitted:', formData);
+    const body = [`Имя: ${formData.name}`, `Email: ${formData.email}`, `Телефон: ${formData.phone}`, '', formData.message].join('\n');
+    window.location.href = `mailto:deti.geroi@mail.ru?subject=${encodeURIComponent(formData.subject || 'Обращение с сайта Диалог поколений')}&body=${encodeURIComponent(body)}`;
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -87,10 +88,11 @@ export default function ContactPage() {
                 <Mail size={40} className="text-crimson-600" />
               </div>
               <h3 className="font-heading text-xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
-                Email
+                Общие обращения
               </h3>
               <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                deti.geroi@mail.ru
+                <a href="mailto:deti.geroi@mail.ru">deti.geroi@mail.ru</a><br />
+                <span>Конкурс и турнир:</span><br /><a className="break-all" href={`mailto:${octoberProgram.email}`}>{octoberProgram.email}</a>
               </p>
             </div>
           </div>
@@ -106,7 +108,7 @@ export default function ContactPage() {
                 Напишите нам
               </h2>
               <p className="text-xl max-w-3xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
-                Заполните форму ниже, и мы свяжемся с вами в ближайшее время
+                Заполните форму — откроется ваше почтовое приложение с черновиком. Проверьте письмо и отправьте его самостоятельно.
               </p>
             </div>
 
@@ -198,7 +200,7 @@ export default function ContactPage() {
                   className="inline-flex items-center justify-center px-8 py-4 rounded-lg font-medium text-white bg-crimson-600 hover:bg-crimson-700 transition-colors shadow-md shadow-crimson-600/20"
                 >
                   <Send size={20} className="mr-2" />
-                  Отправить сообщение
+                  Подготовить письмо
                 </button>
               </div>
             </form>

@@ -18,5 +18,7 @@
 .programme-button:hover { background: var(--color-crimson-700); }
 .programme-shell input,.programme-shell select { border-color: var(--border-color); }
 .programme-shell :is(button,a,input,select):focus-visible { outline: 3px solid var(--color-gold-500); outline-offset: 3px; }
-#october-program { scroll-margin-top: 100px; }
+#moscow-program { scroll-margin-top: 100px; }
+.programme-change-note { border-left: 3px solid var(--color-crimson-text); padding: 12px 18px; background: var(--bg-secondary); line-height: 1.65; }
+.programme-card .programme-stage-time { color: var(--text-primary); font-size: 28px; font-weight: 700; margin-bottom: 18px; }
 @media(max-width: 640px) { .programme-section { padding: 48px 0; } }

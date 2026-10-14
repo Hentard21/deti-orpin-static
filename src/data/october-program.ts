@@ -2,6 +2,8 @@
 // signed tournament regulation dated 19.09.2026 §§1.3, 4, 5, 8.
 // Competition award date is unconfirmed (§3.1 conflicts with §8.2).
 export const octoberProgram = {
+  // Archived event only; do not use this event's venue/partners/terms for Moscow.
+  status: 'cancelled',
   title: 'Встреча детей Героев с городом-героем Волгоградом',
   dates: '26–28 октября 2026 года',
   organizers: ['АНО «Центр поддержки детей погибших военнослужащих»', 'РОО СОИ «Семьи и Жены Героев»'],
@@ -17,8 +19,11 @@ export const octoberProgram = {
 } as const;
 
 export const creativeContest = {
+  // Owner reports a likely postponement; do not accept entries against the old deadline.
+  scheduleStatus: 'pending' as 'pending' | 'confirmed',
   title: 'Моя Родина — Россия',
-  start: '15 сентября 2026 года', deadline: '15 октября 2026 года включительно',
+  start: 'Новые сроки уточняются', deadline: 'Новые сроки уточняются',
+  // Historical bounds, inactive until new terms are explicitly confirmed.
   opensAt: '2026-09-14T21:00:00Z', closesAt: '2026-10-15T21:00:00Z',
   age: '7–17 лет', audience: 'Дети военнослужащих, погибших в СВО',
   ageCategories: ['7–11 лет включительно', '12–17 лет включительно'],
@@ -31,7 +36,8 @@ export const creativeContest = {
   ],
 } as const;
 
-export function contestPhase(now: Date): 'before' | 'open' | 'closed' {
+export function contestPhase(now: Date): 'before' | 'open' | 'closed' | 'pending' {
+  if (creativeContest.scheduleStatus === 'pending') return 'pending';
   const time = now.getTime();
   if (time < Date.parse(creativeContest.opensAt)) return 'before';
   return time < Date.parse(creativeContest.closesAt) ? 'open' : 'closed';

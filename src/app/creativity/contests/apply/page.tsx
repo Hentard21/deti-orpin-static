@@ -11,7 +11,7 @@ export default function ApplyPage() {
   function prepareEmail(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     // Recheck immediately: a tab may have been left open beyond the deadline.
-    if (contestPhase(new Date()) !== 'open') { setNotice('Приём работ завершён либо ещё не начался.'); return; }
+    if (contestPhase(new Date()) !== 'open') { setNotice('Подача работ недоступна. Уточните действующие сроки у оргкомитета.'); return; }
     const data = new FormData(event.currentTarget);
     const body = ['Конкурс «Моя Родина — Россия»',
       `Участник: ${data.get('participant')}`, `Возраст: ${data.get('age')}`,
@@ -26,12 +26,13 @@ export default function ApplyPage() {
     <Link href="/creativity/contests" className="underline">← Условия конкурса</Link>
     <p className="programme-kicker">«{creativeContest.title}»</p>
     <h1 className="text-3xl md:text-5xl font-heading font-bold">Как подать работу</h1>
-    <p>Срок: {creativeContest.deadline}, по московскому времени. Возраст участников: {creativeContest.age}.</p>
-    <p>Официальный канал приёма — <a className="underline break-all" href={`mailto:${octoberProgram.email}`}>{octoberProgram.email}</a>. Работа подаётся вместе с заявкой по установленной форме и необходимыми согласиями. За формами обратитесь в оргкомитет: {octoberProgram.phone}.</p>
-    <p>Эта страница помогает подготовить письмо, но не заменяет установленную заявку. Данные не загружаются на сайт; файлы нужно прикрепить в вашем почтовом приложении.</p>
+    <p>Новые сроки конкурса уточняются. Ранее опубликованный возраст участников: {creativeContest.age}.</p>
+    <p>Вопросы о новых сроках и формах заявки можно направить в оргкомитет: <a className="underline break-all" href={`mailto:${octoberProgram.email}`}>{octoberProgram.email}</a>, {octoberProgram.phone}. Дождитесь подтверждения условий, прежде чем отправлять работу.</p>
+    <p>Форма подготовки письма будет доступна после подтверждения сроков. Она не заменяет установленную заявку. Данные не загружаются на сайт.</p>
     {phase === null && <p role="status">Проверяем срок приёма…</p>}
     {phase === 'closed' && <p role="status" className="font-semibold">Приём работ завершён. Формирование новых заявок недоступно.</p>}
     {phase === 'before' && <p role="status">Приём работ ещё не начался.</p>}
+    {phase === 'pending' && <p role="status" className="font-semibold">Подача работ временно недоступна. Обновлённые даты и условия сообщит оргкомитет.</p>}
     {phase === 'open' && <form onSubmit={prepareEmail} className="space-y-5">
       <label className="block">ФИО участника<input name="participant" autoComplete="name" required maxLength={150} className="block w-full border rounded-lg p-3 mt-2 bg-transparent" /></label>
       <label className="block">Возраст<input name="age" type="number" min={7} max={17} required className="block w-full border rounded-lg p-3 mt-2 bg-transparent" /></label>

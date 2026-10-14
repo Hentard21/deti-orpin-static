@@ -88,7 +88,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="mr-3 text-crimson-600" size={18} />
-                <span style={{ color: 'var(--text-secondary)' }}>Общие обращения:<br /><a href="mailto:deti.geroi@mail.ru">deti.geroi@mail.ru</a><br /><br />Конкурс и турнир:<br /><a className="break-all" href={`mailto:${octoberProgram.email}`}>{octoberProgram.email}</a></span>
+                <span style={{ color: 'var(--text-secondary)' }}>Общие обращения:<br /><a href="mailto:deti.geroi@mail.ru">deti.geroi@mail.ru</a><br /><br />Творческий конкурс:<br /><a className="break-all" href={`mailto:${octoberProgram.email}`}>{octoberProgram.email}</a></span>
               </li>
             </ul>
           </div>
@@ -99,7 +99,7 @@ export default function Footer() {
             <p style={{ color: 'var(--text-secondary)' }} className="mb-4">
               АНО &quot;Центр патриотического воспитания и всестороннего развития детей и молодёжи &quot;Диалог поколений. Герои и дети&quot;
             </p>
-            <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>Организаторы октябрьского конкурса и турнира: {octoberProgram.organizers.join('; ')}.</p>
+            <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>Организаторы конкурса «Моя Родина — Россия»: {octoberProgram.organizers.join('; ')}.</p>
             <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
               © 2026 Диалог поколений. Все права защищены.
             </p>

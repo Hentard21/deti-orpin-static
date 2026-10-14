@@ -92,7 +92,7 @@ export default function ContactPage() {
               </h3>
               <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                 <a href="mailto:deti.geroi@mail.ru">deti.geroi@mail.ru</a><br />
-                <span>Конкурс и турнир:</span><br /><a className="break-all" href={`mailto:${octoberProgram.email}`}>{octoberProgram.email}</a>
+                <span>Творческий конкурс:</span><br /><a className="break-all" href={`mailto:${octoberProgram.email}`}>{octoberProgram.email}</a>
               </p>
             </div>
           </div>
